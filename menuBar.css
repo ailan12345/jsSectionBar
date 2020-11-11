@@ -1,0 +1,71 @@
+.menuBar {
+  position: fixed;
+  right: 1em;
+  transform: translate(0, -50%);
+  top: 50%;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuBar .tip {
+  width: 10px;
+  height: 10px;
+  background: #B1B1B3;
+  margin: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.menuBar .tipActive {
+  background: #FFF;
+  width: 15px;
+  height: 15px;
+}
+
+@media screen and (min-width: 1920px) {
+  .menuBar {
+    padding-right: calc(50vw - 960px);
+  }
+}
+
+
+
+section {
+    background: #111111;
+    color:  #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:  5em;
+}
+
+.bg1 {
+  background: #FF3C41;
+}
+
+.bg2 {
+  background: #FF6822;
+}
+
+.bg3 {
+  background: #FBBB36;
+}
+
+.bg4 {
+  background: #91D53A;
+}
+
+.bg5 {
+  background: #00A2DC;
+}
+
+.bg6 {
+  background: #002A91;
+}
+
+.bg7 {
+  background: #BB99FF;
+}
